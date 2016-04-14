@@ -2,7 +2,7 @@
 
 
 
- ![image](https://github.com/k373379320/raw/master/ZBStepper.PNG)
+![image](https://github.com/k373379320/ZBStepper/raw/master/ZBStepper.PNG)
 
 -自定义Stepper
 
