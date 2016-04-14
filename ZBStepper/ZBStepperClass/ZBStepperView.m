@@ -2,11 +2,12 @@
 //  ZBStepperView.m
 //  XZBTest
 //
-//  Created by zonelue004 on 16/4/14.
+//  Created by 肖志斌 on 16/4/14.
 //  Copyright © 2016年 xzb. All rights reserved.
 //
 
 #import "ZBStepperView.h"
+#import "Masonry.h"
 
 @interface ZBStepperView ()
 
@@ -74,7 +75,7 @@
     _showTextField.textColor = [UIColor colorWithWhite:0.196 alpha:1.000];
     _showTextField.textAlignment = NSTextAlignmentCenter;
     _showTextField.text = @"50";
-    _showTextField.keyboardType = UIKeyboardTypeNumberPad;
+    _showTextField.keyboardType = UIKeyboardTypePhonePad;
     [self addSubview:_showTextField];
     [_showTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(weakSelf.leftBtn.mas_right);
@@ -95,7 +96,7 @@
     if ([object isKindOfClass:[UITextField class]])
     {
         NSInteger curValue = 0;
-        if (![_showTextField.text isPureInt])
+        if (![self isPureInt:_showTextField.text])
         {
             id oldValue = change[NSKeyValueChangeOldKey];
             curValue = [oldValue integerValue];
@@ -168,6 +169,19 @@
 - (void)ZB_hideStepperView
 {
     [self setHidden:YES];
+}
+- (void)setUpMaxValue:(NSInteger)max minValue:(NSInteger)min currentValue:(NSInteger)cur stepValue:(NSInteger)step
+{
+    self.maxValue = max;
+    self.minValue = min;
+    self.currentValue = cur;
+    self.step = step;
+}
+- (BOOL)isPureInt:(NSString *)str
+{
+    NSScanner* scan = [NSScanner scannerWithString:str];
+    int val;
+    return[scan scanInt:&val] && [scan isAtEnd];
 }
 
 @end

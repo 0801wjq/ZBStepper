@@ -2,7 +2,7 @@
 //  ZBStepperView.h
 //  XZBTest
 //
-//  Created by zonelue004 on 16/4/14.
+//  Created by 肖志斌 on 16/4/14.
 //  Copyright © 2016年 xzb. All rights reserved.
 //
 
@@ -18,11 +18,14 @@ typedef void(^ZBStepperViewValueBlock)(NSInteger value);
 @property (nonatomic, assign) NSInteger step;/**< 每次变化的值,默认为1 */
 @property (nonatomic, copy) ZBStepperViewValueBlock stepperViewValueBlock;
 
+
 - (instancetype)initWithSupView:(UIView *)supView;
 + (instancetype)ZB_InitWithSupView:(UIView *)supView;
 
-
 - (void)ZB_showStepperView;
 - (void)ZB_hideStepperView;
+
+- (void)setUpMaxValue:(NSInteger)max minValue:(NSInteger)min currentValue:(NSInteger)cur stepValue:(NSInteger)step;
+
 
 @end

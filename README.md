@@ -2,12 +2,12 @@
 
 
 
- ![image](https://github.com/k373379320/ZBStepper/ZBStepper.PNG)
+ ![image](https://github.com/k373379320/raw/master/ZBStepper.PNG)
 
 -自定义Stepper
 
 使用:
-- #import "ZBStepperView.h"
+- import "ZBStepperView.h"
 
 - _myStepperView  = [ZBStepperView ZB_InitWithSupView:self.view];
 
