@@ -22,9 +22,15 @@ typedef void(^ZBStepperViewValueBlock)(NSInteger value);
 - (instancetype)initWithSupView:(UIView *)supView;
 + (instancetype)ZB_InitWithSupView:(UIView *)supView;
 
+/**
+ *  显示/隐藏
+ */
 - (void)ZB_showStepperView;
 - (void)ZB_hideStepperView;
 
+/**
+ *  统一设置
+ */
 - (void)setUpMaxValue:(NSInteger)max minValue:(NSInteger)min currentValue:(NSInteger)cur stepValue:(NSInteger)step;
 
 

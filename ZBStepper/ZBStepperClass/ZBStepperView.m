@@ -9,6 +9,8 @@
 #import "ZBStepperView.h"
 #import "Masonry.h"
 
+#define KImageHeight 32
+
 @interface ZBStepperView ()
 
 @property (nonatomic, strong) UIButton *leftBtn;
@@ -40,8 +42,9 @@
 }
 - (void)sInit
 {
-    self.layer.cornerRadius = 32/2;
+    self.layer.cornerRadius = KImageHeight/2;
     self.layer.masksToBounds = YES;
+    
     _maxValue = 100;
     _minValue = 0;
     _step = 1;
@@ -55,19 +58,18 @@
     [self addSubview:_leftBtn];
     [_leftBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.top.offset(0);
-        make.width.offset(32);
-        make.height.offset(32);
+        make.width.offset(KImageHeight);
+        make.height.offset(KImageHeight);
     }];
     
     _rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    
     [_rightBtn setImage:[UIImage imageNamed:@"stepperRight"] forState:UIControlStateNormal];
     [_rightBtn addTarget:self action:@selector(rightBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:_rightBtn];
     [_rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.top.offset(0);
-        make.width.offset(32);
-        make.height.offset(32);
+        make.width.offset(KImageHeight);
+        make.height.offset(KImageHeight);
     }];
     
     __weak typeof(self) weakSelf = self;
@@ -104,26 +106,12 @@
         else
         {
             curValue = [_showTextField.text integerValue];
-            if (curValue > _maxValue)
-            {
-                curValue = _maxValue;
-            }
-            if (curValue < _minValue)
-            {
-                curValue = _minValue;
-            }
+            if (curValue > _maxValue)curValue = _maxValue;
+            if (curValue < _minValue) curValue = _minValue;
             _currentValue = curValue;
         }
-
-        if (_stepperViewValueBlock)
-        {
-            _stepperViewValueBlock(curValue);
-        }
-        
-        if ([self.showTextField.text integerValue] != curValue)
-        {
-            self.showTextField.text = [@(curValue) stringValue];
-        }
+        if (_stepperViewValueBlock)_stepperViewValueBlock(curValue);
+        if ([self.showTextField.text integerValue] != curValue)self.showTextField.text = [@(curValue) stringValue];
     }
 }
 - (void)leftBtnClick
@@ -136,25 +124,14 @@
 }
 - (void)setCurrentValue:(NSInteger)currentValue
 {
-    if (currentValue < _minValue)
-    {
-        currentValue = _minValue;
-    }
-    if (currentValue > _maxValue)
-    {
-        currentValue = _maxValue;
-    }
-    
     _currentValue = currentValue;
-    
+    if (currentValue < _minValue)currentValue = _minValue;
+    if (currentValue > _maxValue)currentValue = _maxValue;
     [self sShowTextFieldText:currentValue];
 }
 - (void)sShowTextFieldText:(NSInteger)value
 {
-    if (value >= _minValue && value <=_maxValue )
-    {
-        _showTextField.text = [@(value) stringValue];
-    }
+    if (value >= _minValue && value <=_maxValue )_showTextField.text = [@(value) stringValue];
 }
 - (void)ZB_showStepperView
 {
