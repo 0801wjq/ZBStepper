@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E0896C61CBF968000E24B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0896C51CBF968000E24B0A /* main.m */; };
+		7E0896C91CBF968000E24B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0896C81CBF968000E24B0A /* AppDelegate.m */; };
+		7E0896CC1CBF968000E24B0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0896CB1CBF968000E24B0A /* ViewController.m */; };
+		7E0896CF1CBF968000E24B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0896CD1CBF968000E24B0A /* Main.storyboard */; };
+		7E0896D11CBF968000E24B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0896D01CBF968000E24B0A /* Assets.xcassets */; };
+		7E0896D41CBF968000E24B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0896D21CBF968000E24B0A /* LaunchScreen.storyboard */; };
+		7E0896DF1CBF968000E24B0A /* ZBStepperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0896DE1CBF968000E24B0A /* ZBStepperTests.m */; };
+		7E0896EA1CBF968000E24B0A /* ZBStepperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0896E91CBF968000E24B0A /* ZBStepperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E0896DB1CBF968000E24B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E0896B91CBF967F00E24B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0896C01CBF967F00E24B0A;
+			remoteInfo = ZBStepper;
+		};
+		7E0896E61CBF968000E24B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E0896B91CBF967F00E24B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0896C01CBF967F00E24B0A;
+			remoteInfo = ZBStepper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E0896C11CBF967F00E24B0A /* ZBStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBStepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0896C51CBF968000E24B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E0896C71CBF968000E24B0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E0896C81CBF968000E24B0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E0896CA1CBF968000E24B0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E0896CB1CBF968000E24B0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E0896CE1CBF968000E24B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E0896D01CBF968000E24B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E0896D31CBF968000E24B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E0896D51CBF968000E24B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0896DA1CBF968000E24B0A /* ZBStepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBStepperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0896DE1CBF968000E24B0A /* ZBStepperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBStepperTests.m; sourceTree = "<group>"; };
+		7E0896E01CBF968000E24B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0896E51CBF968000E24B0A /* ZBStepperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBStepperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0896E91CBF968000E24B0A /* ZBStepperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBStepperUITests.m; sourceTree = "<group>"; };
+		7E0896EB1CBF968000E24B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E0896BE1CBF967F00E24B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0896D71CBF968000E24B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0896E21CBF968000E24B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E0896B81CBF967F00E24B0A = {
+			isa = PBXGroup;
+			children = (
+				7E0896C31CBF968000E24B0A /* ZBStepper */,
+				7E0896DD1CBF968000E24B0A /* ZBStepperTests */,
+				7E0896E81CBF968000E24B0A /* ZBStepperUITests */,
+				7E0896C21CBF967F00E24B0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E0896C21CBF967F00E24B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E0896C11CBF967F00E24B0A /* ZBStepper.app */,
+				7E0896DA1CBF968000E24B0A /* ZBStepperTests.xctest */,
+				7E0896E51CBF968000E24B0A /* ZBStepperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E0896C31CBF968000E24B0A /* ZBStepper */ = {
+			isa = PBXGroup;
+			children = (
+				7E0896C71CBF968000E24B0A /* AppDelegate.h */,
+				7E0896C81CBF968000E24B0A /* AppDelegate.m */,
+				7E0896CA1CBF968000E24B0A /* ViewController.h */,
+				7E0896CB1CBF968000E24B0A /* ViewController.m */,
+				7E0896CD1CBF968000E24B0A /* Main.storyboard */,
+				7E0896D01CBF968000E24B0A /* Assets.xcassets */,
+				7E0896D21CBF968000E24B0A /* LaunchScreen.storyboard */,
+				7E0896D51CBF968000E24B0A /* Info.plist */,
+				7E0896C41CBF968000E24B0A /* Supporting Files */,
+			);
+			path = ZBStepper;
+			sourceTree = "<group>";
+		};
+		7E0896C41CBF968000E24B0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E0896C51CBF968000E24B0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E0896DD1CBF968000E24B0A /* ZBStepperTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E0896DE1CBF968000E24B0A /* ZBStepperTests.m */,
+				7E0896E01CBF968000E24B0A /* Info.plist */,
+			);
+			path = ZBStepperTests;
+			sourceTree = "<group>";
+		};
+		7E0896E81CBF968000E24B0A /* ZBStepperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E0896E91CBF968000E24B0A /* ZBStepperUITests.m */,
+				7E0896EB1CBF968000E24B0A /* Info.plist */,
+			);
+			path = ZBStepperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E0896C01CBF967F00E24B0A /* ZBStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0896EE1CBF968000E24B0A /* Build configuration list for PBXNativeTarget "ZBStepper" */;
+			buildPhases = (
+				7E0896BD1CBF967F00E24B0A /* Sources */,
+				7E0896BE1CBF967F00E24B0A /* Frameworks */,
+				7E0896BF1CBF967F00E24B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBStepper;
+			productName = ZBStepper;
+			productReference = 7E0896C11CBF967F00E24B0A /* ZBStepper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E0896D91CBF968000E24B0A /* ZBStepperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0896F11CBF968000E24B0A /* Build configuration list for PBXNativeTarget "ZBStepperTests" */;
+			buildPhases = (
+				7E0896D61CBF968000E24B0A /* Sources */,
+				7E0896D71CBF968000E24B0A /* Frameworks */,
+				7E0896D81CBF968000E24B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E0896DC1CBF968000E24B0A /* PBXTargetDependency */,
+			);
+			name = ZBStepperTests;
+			productName = ZBStepperTests;
+			productReference = 7E0896DA1CBF968000E24B0A /* ZBStepperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E0896E41CBF968000E24B0A /* ZBStepperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0896F41CBF968000E24B0A /* Build configuration list for PBXNativeTarget "ZBStepperUITests" */;
+			buildPhases = (
+				7E0896E11CBF968000E24B0A /* Sources */,
+				7E0896E21CBF968000E24B0A /* Frameworks */,
+				7E0896E31CBF968000E24B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E0896E71CBF968000E24B0A /* PBXTargetDependency */,
+			);
+			name = ZBStepperUITests;
+			productName = ZBStepperUITests;
+			productReference = 7E0896E51CBF968000E24B0A /* ZBStepperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E0896B91CBF967F00E24B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZB_Xiao;
+				TargetAttributes = {
+					7E0896C01CBF967F00E24B0A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 43ECZ4626S;
+					};
+					7E0896D91CBF968000E24B0A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 43ECZ4626S;
+						TestTargetID = 7E0896C01CBF967F00E24B0A;
+					};
+					7E0896E41CBF968000E24B0A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 43ECZ4626S;
+						TestTargetID = 7E0896C01CBF967F00E24B0A;
+					};
+				};
+			};
+			buildConfigurationList = 7E0896BC1CBF967F00E24B0A /* Build configuration list for PBXProject "ZBStepper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E0896B81CBF967F00E24B0A;
+			productRefGroup = 7E0896C21CBF967F00E24B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E0896C01CBF967F00E24B0A /* ZBStepper */,
+				7E0896D91CBF968000E24B0A /* ZBStepperTests */,
+				7E0896E41CBF968000E24B0A /* ZBStepperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E0896BF1CBF967F00E24B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0896D41CBF968000E24B0A /* LaunchScreen.storyboard in Resources */,
+				7E0896D11CBF968000E24B0A /* Assets.xcassets in Resources */,
+				7E0896CF1CBF968000E24B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0896D81CBF968000E24B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0896E31CBF968000E24B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E0896BD1CBF967F00E24B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0896CC1CBF968000E24B0A /* ViewController.m in Sources */,
+				7E0896C91CBF968000E24B0A /* AppDelegate.m in Sources */,
+				7E0896C61CBF968000E24B0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0896D61CBF968000E24B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0896DF1CBF968000E24B0A /* ZBStepperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0896E11CBF968000E24B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0896EA1CBF968000E24B0A /* ZBStepperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E0896DC1CBF968000E24B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0896C01CBF967F00E24B0A /* ZBStepper */;
+			targetProxy = 7E0896DB1CBF968000E24B0A /* PBXContainerItemProxy */;
+		};
+		7E0896E71CBF968000E24B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0896C01CBF967F00E24B0A /* ZBStepper */;
+			targetProxy = 7E0896E61CBF968000E24B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E0896CD1CBF968000E24B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E0896CE1CBF968000E24B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E0896D21CBF968000E24B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E0896D31CBF968000E24B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E0896EC1CBF968000E24B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7E0896ED1CBF968000E24B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E0896EF1CBF968000E24B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZBStepper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzb.ZBStepper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E0896F01CBF968000E24B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZBStepper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzb.ZBStepper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E0896F21CBF968000E24B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZBStepperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzb.ZBStepperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBStepper.app/ZBStepper";
+			};
+			name = Debug;
+		};
+		7E0896F31CBF968000E24B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZBStepperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzb.ZBStepperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBStepper.app/ZBStepper";
+			};
+			name = Release;
+		};
+		7E0896F51CBF968000E24B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZBStepperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzb.ZBStepperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBStepper;
+			};
+			name = Debug;
+		};
+		7E0896F61CBF968000E24B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZBStepperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzb.ZBStepperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBStepper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E0896BC1CBF967F00E24B0A /* Build configuration list for PBXProject "ZBStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0896EC1CBF968000E24B0A /* Debug */,
+				7E0896ED1CBF968000E24B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E0896EE1CBF968000E24B0A /* Build configuration list for PBXNativeTarget "ZBStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0896EF1CBF968000E24B0A /* Debug */,
+				7E0896F01CBF968000E24B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E0896F11CBF968000E24B0A /* Build configuration list for PBXNativeTarget "ZBStepperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0896F21CBF968000E24B0A /* Debug */,
+				7E0896F31CBF968000E24B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E0896F41CBF968000E24B0A /* Build configuration list for PBXNativeTarget "ZBStepperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0896F51CBF968000E24B0A /* Debug */,
+				7E0896F61CBF968000E24B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E0896B91CBF967F00E24B0A /* Project object */;
+}
